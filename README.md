@@ -29,7 +29,7 @@ You can manually download all the required package mention in [`requirements.txt
 
 
 ## Training
-You can customize your model in [`utils.py`](utils.py) file under the `create_model()function and then run:
+You can customize your model in [`utils.py`](utils.py) file under the create_model() function and then run:
 
     python/python3 train.py
 
