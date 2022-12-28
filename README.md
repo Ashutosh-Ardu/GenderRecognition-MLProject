@@ -24,11 +24,13 @@ This will take sometime to extract features from the audio files and generate ne
 
 ## Required Packages
 You can manually download all the required package mention in [`requirements.txt`](requirements.txt) or use pip python package installer to install it from the file:
+
     pip install -r requirements.txt
 
 
 ## Training
 You can customize your model in [`utils.py`](utils.py) file under the `create_model()function and then run:
+
     python/python3 train.py
 
 ## Testing
