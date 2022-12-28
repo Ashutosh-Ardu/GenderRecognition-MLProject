@@ -22,8 +22,13 @@ If you wish to download the dataset and extract the features files (.npy files) 
 
 This will take sometime to extract features from the audio files and generate new .csv files.
 
+## Required Packages
+You can manually download all the required package mention in [`requirements.txt`](requirements.txt) or use pip python package installer to install it from the file:
+    pip install -r requirements.txt
+
+
 ## Training
-You can customize your model in [`utils.py`](utils.py) file under the `create_model()` function and then run:
+You can customize your model in [`utils.py`](utils.py) file under the `create_model()function and then run:
     python/python3 train.py
 
 ## Testing
@@ -52,10 +57,16 @@ You can customize your model in [`utils.py`](utils.py) file under the `create_mo
 
 There are some audio samples in [test-samples](test-samples) folder for you to test with, it is grabbed from [LibriSpeech dataset](http://www.openslr.org/12).
 
-- To perform real-time gender voice recognition:
+To perform real-time gender voice recognition:
+
       python/python3 test.py
 
 Wait until you see `"Start Recording....."` prompt and start talking, it will stop recording as long as you stop talking.
 
+## Live Demonstration Video
+  - Video Link:
+    [Click](https://youtu.be/Hq-xQPMarMc)
+
+
 ### Referred from:
-[Link](https://www.thepythoncode.com/article/gender-recognition-by-voice-using-tensorflow-in-python#:~:text=Gender%20recognition%20by%20voice%20is,the%20TensorFlow%20framework%20in%20Python.)
+- [Link](https://www.thepythoncode.com/article/gender-recognition-by-voice-using-tensorflow-in-python#:~:text=Gender%20recognition%20by%20voice%20is,the%20TensorFlow%20framework%20in%20Python.)
